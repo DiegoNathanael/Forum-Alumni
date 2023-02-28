@@ -173,6 +173,10 @@ main .container .left .profile .handle:visited {
   border-radius: var(--card-border-radius);
 }
 
+.left .sidebar a {
+  color: var(--color-black);
+}
+
 .left .sidebar .menu-item {
   display: flex;
   align-items: center;
@@ -337,7 +341,7 @@ main .container .left .profile .handle:visited {
 }
 
 .panel-body p {
-  margin: 0.8rem 0.5rem;
+  margin: 0.8rem 1rem;
 }
 
 .middle .feeds .feed {
@@ -365,6 +369,11 @@ main .container .left .profile .handle:visited {
   aspect-ratio: 1/1;
   border-radius: 50%;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.middle .edit i {
+  cursor: pointer;
 }
 
 .middle .feed .photo {
@@ -373,12 +382,20 @@ main .container .left .profile .handle:visited {
   margin: 0.7rem 0;
 }
 
+.middle .feed .photo .post-photo {
+  cursor: pointer;
+}
+
 .middle .feed .action-buttons {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.4rem;
   margin: 0.6rem;
+}
+
+.middle .feed .action-buttons .interaction-buttons span i {
+  cursor: pointer;
 }
 
 .middle .liked-by {
@@ -409,6 +426,10 @@ main .container .left .profile .handle:visited {
   position: sticky;
   top: var(--sticky-top-right);
   bottom: 0;
+}
+
+.right {
+  margin-top: 0.9rem;
 }
 
 .right .messages {
@@ -449,6 +470,11 @@ main .container .left .profile .handle:visited {
 
 .right .messages .category .active {
   border-color: var(--color-dark);
+}
+
+.category,
+.message {
+  cursor: pointer;
 }
 
 .right .messages .message-requests {
