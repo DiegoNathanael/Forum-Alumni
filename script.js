@@ -50,3 +50,4 @@ messagesNotification.addEventListener("click", () => {
     messages.style.boxShadow = "none";
   }, 2000);
 });
+
