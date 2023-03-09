@@ -10,3 +10,6 @@ Anggota:
 - Naufal Rizky
 - Alvin Nurhakim
 - Diego Nathanael Roberto
+
+Link Laporan Minggu Terakhir:
+https://youtu.be/YrONeUNzIeM
